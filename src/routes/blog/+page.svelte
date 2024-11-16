@@ -1,4 +1,6 @@
 <script lang="ts">
+        import { onMount } from "svelte";
+    let SearchElement: any;
     const allBlogPosts = [
         {
             id: 1,
@@ -46,7 +48,81 @@
             author: "Michael Wilson",
         },
     ];
+
+    // onMount(async () => {       
+    // });
 </script>
+
+<svelte:head>
+    <title>Latest Blog | OpenDataLiberia</title>
+    <meta
+        name="description"
+        content="Explore the latest blog posts from OpenDataLiberia on open data, transparency, and innovation in Liberia."
+    />
+    <meta
+        property="og:title"
+        content="OpenDataLiberia Blog"
+    />
+    <meta
+        property="og:description"
+        content="Explore the latest blog posts from OpenDataLiberia on open data, transparency, and innovation in Liberia."
+    />
+    <meta
+        property="og:image"
+        content="/images/blog.jpg"
+    />
+    <meta
+        property="og:url"
+        content="https://opendataliberia.com/blog"
+    />
+    <meta
+        property="og:type"
+        content="website"
+    />
+    <meta
+        property="og:site_name"
+        content="OpenDataLiberia"
+    />
+    <meta
+        name="twitter:card"
+        content="summary_large_image"
+    />
+    <meta
+        name="twitter:title"
+        content="OpenDataLiberia Blog"
+    />
+    <meta
+        name="twitter:description"
+        content="Explore the latest blog posts from OpenDataLiberia on open data, transparency, and innovation in Liberia."
+    />
+    <meta
+        name="twitter:image"
+        content="/images/blog.jpg"
+    />
+    <meta
+        name="twitter:url"
+        content="https://opendataliberia.com/blog"
+    />
+    <meta
+        name="twitter:site"
+        content="@opendataliberia"
+    />
+    <link
+        rel="canonical"
+        href="https://opendataliberia.com/blog"
+    />
+    <link
+        rel="alternate"
+        type="application/rss+xml"
+        title="OpenDataLiberia RSS Feed"
+        href="/feed.xml"
+    />
+    <link
+        rel="icon"
+        type="image/png"
+        href="/favicon.png"
+    />
+</svelte:head>
 
 <main class="flex-grow container mx-auto px-4 py-12">
     <h1 class="text-4xl font-bold mb-8 text-center">OpenDataLiberia Blog</h1>
@@ -59,10 +135,9 @@
                 placeholder="Search blog posts..."
                 class="w-full p-2 pl-10 border rounded-md"
             />
-            <i
-                data-lucide="search"
+            <!-- <SearchElement
                 class="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
-            ></i>
+            /> -->
         </div>
     </div>
 
