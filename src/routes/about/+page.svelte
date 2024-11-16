@@ -78,11 +78,11 @@
     />
 </svelte:head>
 <main class="flex-grow container mx-auto px-4 py-12">
-    <h1 class="text-4xl font-bold mb-8 text-center">About Open Data Liberia</h1>
+    <h1 class="text-4xl font-bold mb-8 text-center">About Open Data Liberia (ODLiberia)</h1>
 
     <div class="max-w-3xl mx-auto space-y-6">
         <p>
-            OpenDataLiberia is a pioneering initiative dedicated to promoting
+            ODLiberia is a pioneering initiative dedicated to promoting
             transparency, fostering innovation, and driving development in
             Liberia through the power of open data.
         </p>

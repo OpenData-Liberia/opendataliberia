@@ -5,7 +5,7 @@
 <header class="bg-primary text-white">
   <nav class="container mx-auto px-6 py-4">
     <div class="flex items-center justify-between">
-      <a href="/" class="text-xl font-bold">OpenDataLiberia</a>
+      <a href="/" class="text-xl font-bold">ODLiberia</a>
       
       <div class="hidden md:flex space-x-6">
         <a href="/projects" class="hover:text-gray-300">Projects</a>

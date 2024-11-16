@@ -2,7 +2,7 @@
   <div class="container mx-auto px-6">
     <div class="grid md:grid-cols-4 gap-8">
       <div>
-        <h3 class="text-lg font-semibold mb-4">OpenDataLiberia</h3>
+        <h3 class="text-lg font-semibold mb-4">ODLiberia</h3>
         <p class="text-gray-400">
           Promoting transparency and innovation through open data.
         </p>
@@ -11,9 +11,9 @@
       <div>
         <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
         <ul class="space-y-2 text-gray-400">
-          <li><a href="#" class="hover:text-white">Home</a></li>
-          <li><a href="#" class="hover:text-white">Data</a></li>
-          <li><a href="#" class="hover:text-white">About</a></li>
+          <li><a href="/" class="hover:text-white">Home</a></li>
+          <li><a href="/project" class="hover:text-white">Projects</a></li>
+          <li><a href="/about" class="hover:text-white">About</a></li>
           <li><a href="#" class="hover:text-white">Contact</a></li>
         </ul>
       </div>
