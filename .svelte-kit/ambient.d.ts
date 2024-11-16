@@ -127,6 +127,7 @@ declare module '$env/static/private' {
 	export const VTE_VERSION: string;
 	export const npm_package_devDependencies__tailwindcss_aspect_ratio: string;
 	export const npm_package_devDependencies__tailwindcss_container_queries: string;
+	export const npm_package_dependencies_lucide_svelte: string;
 	export const npm_package_devDependencies__types_eslint: string;
 	export const INIT_CWD: string;
 	export const NODE_ENV: string;
@@ -262,6 +263,7 @@ declare module '$env/dynamic/private' {
 		VTE_VERSION: string;
 		npm_package_devDependencies__tailwindcss_aspect_ratio: string;
 		npm_package_devDependencies__tailwindcss_container_queries: string;
+		npm_package_dependencies_lucide_svelte: string;
 		npm_package_devDependencies__types_eslint: string;
 		INIT_CWD: string;
 		NODE_ENV: string;
