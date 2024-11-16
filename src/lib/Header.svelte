@@ -8,9 +8,9 @@
       <a href="/" class="text-xl font-bold">OpenDataLiberia</a>
       
       <div class="hidden md:flex space-x-6">
-        <a href="#" class="hover:text-gray-300">Home</a>
-        <a href="#" class="hover:text-gray-300">Data</a>
-        <a href="#" class="hover:text-gray-300">About</a>
+        <a href="/projects" class="hover:text-gray-300">Projects</a>
+        <a href="/blog" class="hover:text-gray-300">Blog</a>
+        <a href="/about" class="hover:text-gray-300">About</a>
         <a href="#" class="hover:text-gray-300">Contact</a>
       </div>
 
@@ -26,9 +26,9 @@
 
     {#if isMenuOpen}
       <div class="md:hidden mt-4 space-y-4">
-        <a href="#" class="block hover:text-gray-300">Home</a>
-        <a href="#" class="block hover:text-gray-300">Data</a>
-        <a href="#" class="block hover:text-gray-300">About</a>
+        <a href="/projects" class="block hover:text-gray-300">Projects</a>
+        <a href="/blog" class="block hover:text-gray-300">Blog</a>
+        <a href="/about" class="block hover:text-gray-300">About</a>
         <a href="#" class="block hover:text-gray-300">Contact</a>
       </div>
     {/if}
